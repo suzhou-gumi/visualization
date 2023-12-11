@@ -44,7 +44,6 @@ const dataSource = {
   const pack = d3.pack().size([512, 512]).padding(3);
 
   const root = pack(regions);
-  console.log(root);
 
   const canvas = document.querySelector("canvas");
 
